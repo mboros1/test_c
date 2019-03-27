@@ -1,0 +1,21 @@
+[
+ {
+  "directory": "/home/mboros04/Source/test_c", 
+  "arguments": [
+   "gcc", 
+   "-c", 
+   "include/mytool1.c"
+  ], 
+  "file": "include/mytool1.c"
+ }, 
+ {
+  "directory": "/home/mboros04/Source/test_c", 
+  "arguments": [
+   "gcc", 
+   "-c", 
+   "main.c", 
+   "-Iinclude"
+  ], 
+  "file": "main.c"
+ }
+]
